@@ -1,9 +1,18 @@
 .form-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
-  background-color: aqua;
+  background-color: #439cde;
   display: flex;
   justify-content: center;
+  font-size: large;
 }
 .form-container label {
   margin-right: 3px;
+}
+.form-container #email {
+  padding: 5px 0;
+}
+.form-container input {
+  padding: 5px;
+  box-shadow: 5px 5px 5px #217abc;
 }
