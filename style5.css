@@ -1,0 +1,9 @@
+.form-container {
+  padding: 20px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.form-container label {
+  margin-right: 3px;
+}
