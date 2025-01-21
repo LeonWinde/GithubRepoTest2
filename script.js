@@ -36,7 +36,7 @@ const information = [
   {
     titel: "Gefahr für Wale",
     image:
-      "https://media.istockphoto.com/id/1385202272/de/foto/fort-lauderdale-florida-29-februar-2016-sch%C3%B6ne-aussicht-auf-stadtkan%C3%A4le-mit-booten-und.jpg?s=2048x2048&w=is&k=20&c=BefA2zpP0L_F6OsfBDdagOVpOgkfeVPhmawl8lgohGg=",
+      "https://media.gettyimages.com/id/639204140/de/foto/blue-whale-balaenoptera-musculus-gulf-of-california-mexico.jpg?s=612x612&w=0&k=20&c=UZyLFugHbO4lQU5BXpXOdaTU5OzwFCYpoL7X8EVXxRY=",
     paragraph:
       "Wale sind eine der faszinierendsten und größten Tierarten der Welt. Dennoch sind sie durch verschiedene Faktoren stark gefährdet.",
   },
