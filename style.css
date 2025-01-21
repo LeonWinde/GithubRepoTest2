@@ -59,7 +59,7 @@ p {
   font-weight: bold;
 }
 
-/* Картинка */
+/* img */
 .img {
   text-align: center;
   margin: 20px 0;
@@ -71,7 +71,7 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Навігація */
+/* nav */
 nav.box {
   margin: 20px 0;
   background-color: #0077b6;
@@ -101,7 +101,7 @@ nav.box ul li a:hover {
   text-decoration: underline;
 }
 
-/* Кнопка */
+/* button */
 button {
   display: block;
   margin: 20px auto;
@@ -118,7 +118,7 @@ button:hover {
   background-color: #005f8a;
 }
 
-/* Форма */
+/* Form */
 .form-container {
   max-width: 400px;
   margin: 20px auto;
