@@ -2,8 +2,12 @@
   margin: 0;
   padding: 0;
 }
-html {
-  background-color: #d6e3fc;
+body {
+  background: linear-gradient(#3d4b6a, #d6e3fc);
+}
+html,
+body {
+  min-height: 100vh;
 }
 /* Nav Start */
 .topnav {
@@ -135,8 +139,11 @@ img {
 }
 
 footer {
-  margin-top: 20px;
+  width: 100vw;
+  padding: 15px 0;
+  position: fixed;
   text-align: center;
+  bottom: 0;
 }
 @keyframes fade {
   from {
