@@ -24,7 +24,7 @@ leftButton.addEventListener("click", previousSlide);
 rightButton.addEventListener("click", nextSlide);
 
 function nextSlide() {
-  if (currentIndex < information.length) {
+  if (currentIndex < information.length - 1) {
     currentIndex++;
   } else {
     currentIndex = 0;
@@ -37,7 +37,7 @@ function previousSlide() {
   if (currentIndex !== 0) {
     currentIndex--;
   } else {
-    currentIndex = information.length;
+    currentIndex = information.length - 1;
   }
   titel.innerText = information[currentIndex].titel;
   image.src = information[currentIndex].image;
