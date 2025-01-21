@@ -142,12 +142,6 @@ button:hover {
   border: 1px solid #ddd;
   border-radius: 5px;
 }
-<<<<<<< HEAD
-.box {
-  border: 2px solid black;
-  margin-bottom: 10px;
-  background-color: rgba(202, 198, 198, 0.938);
-=======
 
 .form-container input[type="submit"] {
   background-color: #0077b6;
@@ -162,5 +156,46 @@ button:hover {
 color: blue;
   text-decoration: underline;
 
->>>>>>> 5c72a86c3bbcb207500bacb7662d22c0f63a50de
+}
+.whale-threat {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.whale-threat h2 {
+  color: #0077b6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.whale-threat p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.whale-threat ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.whale-threat li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.whale-threat li::before {
+  content: "•";
+  color: #0077b6;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
