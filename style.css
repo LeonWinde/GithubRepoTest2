@@ -141,7 +141,7 @@ img {
 footer {
   width: 100vw;
   padding: 15px 0;
-  position: fixed;
+  position: sticky;
   text-align: center;
   bottom: 0;
 }
